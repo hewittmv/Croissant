@@ -19,6 +19,7 @@
 body {
   background: rgb(26, 24, 24);
   text-align:center;
+  color: var(--text-gradient);
 }
 .logo {
   width: 45px;
