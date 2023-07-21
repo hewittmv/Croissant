@@ -1,5 +1,20 @@
 :root {
-  --primary-color: #d4af37;
+  --best-color: #d4af37;
+  --gradient: linear-gradient(to right, #d4af37 55%, #e4cc7f, #887023);
+  --text-background: linear-gradient(to right, darkblue, darkorchid);
+}
+.text-gradient-gold {
+  --text-background: linear-gradient(to right, #887023, #d4af37);
+}
+.text-gradient {
+  color: inherit;
+
+  @supports (--css: variables) {
+    background: var(--text-background);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
 }
 .logo {
   width: 45px;
