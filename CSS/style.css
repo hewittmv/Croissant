@@ -4,7 +4,7 @@
   --text-background: linear-gradient(to left, darkblue, darkorchid);
 }
 .text-gradient-gold {
-  --text-background: linear-gradient(to left, #887023, #F8F1DD);
+  --text-background: linear-gradient(to left, #887023, #f8f1dd);
 }
 .text-gradient {
   color: inherit;
@@ -18,7 +18,7 @@
 }
 body {
   background: rgb(26, 24, 24);
-  text-align:center;
+  text-align: center;
   color: var(--text-gradient);
 }
 .logo {
@@ -28,21 +28,23 @@ body {
   filter: drop-shadow(0 0 0.1rem gold);
 }
 .container {
-     margin-top: 15%;
+  margin-top: 15%;
   margin-left: 30%;
-  margin-right:30%;
-  
+  margin-right: 30%;
+
   filter: drop-shadow(0 0 0.75rem gold);
 }
 img {
-    width:100%;
-    height:auto;
-    border-bottom:#887023
-    filter: drop-shadow(0 0 0.75rem gold);
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+
+  filter: drop-shadow(0 0 0.75rem #f8f1dd);
 }
-h1{
-    margin-top:15%;
+h1 {
+  margin-top: 10%;
+  margin-bottom: 0;
 }
-.homepage-h1{
-    font-size:100px;
+.homepage-h1 {
+  font-size: 100px;
 }
