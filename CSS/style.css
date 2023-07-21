@@ -16,9 +16,22 @@
     background-clip: text;
   }
 }
+body {
+  background: rgb(26, 24, 24);
+}
 .logo {
   width: 45px;
   height: 40px;
   border-radius: 50%;
   filter: drop-shadow(0 0 0.1rem gold);
+}
+.container {
+     margin-top: 45%;
+  margin-left: 30%;
+  filter: drop-shadow(0 0 0.75rem gold);
+}
+img {
+    border-bottom:#887023
+  border-color: var(--best-color);
+  filter: drop-shadow(0 0 0.75rem gold);
 }
