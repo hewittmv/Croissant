@@ -1,10 +1,10 @@
 :root {
   --best-color: #d4af37;
   --gradient: linear-gradient(190deg, #d4af37, #e4cc7f, #887023);
-  --text-background: linear-gradient(190deg, darkblue, darkorchid);
+  --text-background: linear-gradient(to left, darkblue, darkorchid);
 }
 .text-gradient-gold {
-  --text-background: linear-gradient(190deg, #887023, #d4af37);
+  --text-background: linear-gradient(to left, #887023, #F8F1DD);
 }
 .text-gradient {
   color: inherit;
